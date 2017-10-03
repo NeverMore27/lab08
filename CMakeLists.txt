@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -41,5 +41,5 @@ enable_testing()
 file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
 add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
 target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
-add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes") 
+add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
 endif()
