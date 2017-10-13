@@ -1,2 +1,2 @@
 
-[![Build Status](https://travis-ci.org/NeverMore27/lab006.svg?branch=master)](https://travis-ci.org/NeverMore27/lab006)
+[![Build Status](https://travis-ci.org/NeverMore27/lab008.svg?branch=master)](https://travis-ci.org/NeverMore27/lab008)
